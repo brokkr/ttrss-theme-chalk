@@ -1,6 +1,13 @@
 ttrss-theme-chalk 
 ================= 
 
+A fork of asyncopation's chalk theme for my personal use.
+* Bigger, nicer (IMO) fonts ("Source Sans Pro")
+* Discards a lot of options (mass selection and manipulation) and information
+ for a cleaner look
+* Less finicky CSS (fewer absolute placements, line heights and absolute font
+  sizes)
+
 ** For Legacy Versions **
 
 Sometimes the TT-RSS maintainer makes changes that break theme compatability.  Use the following tags if you're still using an old version of ttrss.
