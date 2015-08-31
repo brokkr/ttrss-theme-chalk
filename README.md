@@ -9,6 +9,8 @@ A fork of asyncopation's chalk theme for my personal use.
 * Less finicky CSS (fewer absolute placements, line heights and absolute font
   sizes)
 
+---------------------
+
 ** For Legacy Versions **
 
 Sometimes the TT-RSS maintainer makes changes that break theme compatability.  Use the following tags if you're still using an old version of ttrss.
