@@ -2,7 +2,8 @@ ttrss-theme-chalk
 ================= 
 
 A fork of asyncopation's chalk theme for my personal use.
-* Bigger, nicer (IMO) fonts ("Source Sans Pro")
+* Bigger, nicer (IMO) font - ["Source Sans Pro"]
+  (https://github.com/adobe-fonts/source-sans-pro) instead of Arial/helvetica
 * Discards a lot of options (mass selection and manipulation) and information
  for a cleaner look
 * Less finicky CSS (fewer absolute placements, line heights and absolute font
