@@ -969,19 +969,8 @@ a:hover {
 .cdm.expandable.active,
 .cdm.expanded {
   border: 1px solid #eee;
-  margin-bottom: 17px;
-}
-.cdm.expandable.active .cdmHeader,
-.cdm.expanded .cdmHeader {
-  padding: 30px 30px 15px;
-}
-.cdm.expandable.active .cdmFooter,
-.cdm.expanded .cdmFooter {
-  padding: 0 34px 30px;
-}
-.cdm.expandable.active .cdmHeader .titleWrap,
-.cdm.expanded .cdmHeader > .titleWrap {
-  padding: 0;
+  margin-bottom: 15px;
+  padding: 15px 30px;
 }
 .cdm.expandable.active .title,
 .cdm.expanded .title {
@@ -991,6 +980,8 @@ a:hover {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
+
+.cdmHeader {margin-bottom: 15px;}
 
 .cdm.expandable.active .cdmHeader .hlFeed,
 .cdm.expanded .cdmHeader .hlFeed {
@@ -1112,9 +1103,6 @@ div.articleNote {
   background: rgba(0,0,0,.1);
   color: #444;
 }
-.cdmContentInner {
-  padding: 10px 34px;
-}
 .postHeader,
 .postContent {
   padding: 10px 35px;
@@ -1140,31 +1128,7 @@ div.articleNote {
   font-variant: small-caps;
 }
 .collapseBtn {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  padding: 6px 7px 7px;
-  text-align: right;
-  vertical-align: top;
-  color: transparent;
-  background: transparent;
-  -webkit-transition: all .5s;
-  transition: all .5s;
-}
-.collapseBtn:hover {
-  color: #999;
-}
-.collapseBtn:before {
-  content: "Collapse article";
-  position: relative;
-  top: 1px;
-  margin: 1px 18px 0;
-  pointer-events: none;
-}
-.collapseBtn img {
-  margin: -6px 0 -7px -9999px;
-  padding: 6px 0 7px 9999px;
+  display: none;
 }
 
 /* floating title extensions */
@@ -1660,6 +1624,4 @@ input:disabled + label {
     top: 30px;
     right: 30px;
 }
-
-
 
