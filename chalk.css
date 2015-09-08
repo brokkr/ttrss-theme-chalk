@@ -1234,19 +1234,6 @@ div.articleNote {
 }
 
 /* extras */
-#cmdline {
-  position: absolute;
-  z-index: 5;
-  bottom: 5px;
-  left: 5px;
-  padding: 1px;
-  width: 18px;
-  border-radius: 4px;
-  background-color: #444;
-  color: #fff;
-  font-weight: bold;
-  text-align: center;
-}
 .cdmFeedTitle {
   padding: 56px 0 28px;
   color: #aaa;
